@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <style>
+      div {
+        width: 500px;
+        box-shadow: 0 0 10px black;
+        padding: 30px;
+        margin: 100px auto;
+        text-align: center;
+      }
+h2 { 
+display: inline-block;
+
+}
+    </style>
+    <script>
+      function B1() {
+        var e1 = document.getElementById("i1");
+        e1.innerText = "Good Morning";
+        e1.style.color = "blue";
+        var e2 = document.getElementById("i2");
+        e2.innerText = "Shalvi Gupta";
+        e2.style.color = "orange";
+      }
+     function B2() {
+        var e1 = document.getElementById("i1");
+        e1.innerText = "Good Evening";
+        e1.style.color = "green";
+        var e2 = document.getElementById("i2");
+        e2.innerText = "Shalvi Gupta";
+        e2.style.color = "yellow";
+      }
+     function B3() {
+        var e1 = document.getElementById("i1");
+        e1.innerText = "Good Night";
+        e1.style.color = "brown";
+        var e2 = document.getElementById("i2");
+        e2.innerText = "Shalvi Gupta";
+        e2.style.color = "grey";
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <h2 id = "i1">Hello</h2>&nbsp
+      <h2 id = "i2">Shalvi</h2>
+    
+      <br>
+      <button onclick="B1()" >Good Morning</button>
+       <button onclick="B2()" >Good Evening</button>
+         <button onclick="B3()" >Good Night</button>
+    </div>
+  </body>
+</html>
